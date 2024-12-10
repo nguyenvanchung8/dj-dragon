@@ -290,7 +290,7 @@ client.on('interactionCreate', async interaction => {
                 let botsInUse = [];
                 let botsFree = [];
 
-                for (const botId of ['906422339674189835', '489076647727857685', '239631525350604801']) {
+                for (const botId of ['906422339674189835', '489076647727857685', '239631525350604801', '684773505157431347', '783708073390112830', '411916947773587456','1145363441524166758']) {
                     let botFound = false;
 
                     for (const [channelId, channel] of allVoiceChannels) {
